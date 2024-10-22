@@ -1,10 +1,12 @@
 # WeMos D1 Mini FastAPI Demo
-## Proyecto: WeMos D1 Mini FastAPI Demo
 
 Este proyecto utiliza una **pantalla LCD de 20x4 conectada a una WeMos D1 Mini** a través de la interfaz **I2C**, 
-para mostrar datos obtenidos de CAMMESA y la Represa de Salto Grande desde una API casera a través de una red WiFi. 
-También incluye verificación de la conexión a internet mediante una solicitud HTTP.
+para mostrar datos obtenidos de CAMMESA y la Represa de Salto Grande desde una API casera a través de una red WiFi. También incluye verificación de la conexión a internet mediante una solicitud HTTP.
 
+#### **CAMMESA**: Demanda Actual y Demanda Estimada (Predespacho) 
+#### **Salto Grande**: Potencia Instantánea, Máquinas activas, Altura Lago Salto Grande y Altura Río Uruguay
+
+![image](https://raw.githubusercontent.com/juanstdio/API_WeMos1/refs/heads/main/photo_4951855146783059849_y.jpg)
 ###Instalación de Librerías
 Para este proyecto, necesitarás instalar las siguientes librerías en tu entorno de desarrollo Arduino:
 
