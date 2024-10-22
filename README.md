@@ -1,4 +1,4 @@
-# API_WeMos1
+# WeMos D1 Mini FastAPI Demo
 ## Proyecto: WeMos D1 Mini FastAPI Demo
 
 Este proyecto utiliza una **pantalla LCD de 20x4 conectada a una WeMos D1 Mini** a través de la interfaz **I2C**, 
