@@ -217,7 +217,7 @@ void loop() {
 
 
     /* Start Drawing crap */
-    UPS.begin(client, "http://192.168.0.8:5005/api/last_ups_data");  
+    UPS.begin(client, "http://XXX.XXX.XXX.XXX/api/last_ups_data");  
     int httpCode = UPS.GET();
     Serial.println(httpCode);
     if (httpCode == HTTP_CODE_OK) {
@@ -241,7 +241,7 @@ void loop() {
     }
     UPS.end();
     /* second part */
-    SADI.begin(client, "http://192.168.0.8:5005/api/last_sadi");  // URL actualizada
+    SADI.begin(client, "http://XXX.XXX.XXX.XXX/api/last_sadi");  // URL actualizada
     int httpCode2 = SADI.GET();
     Serial.println(httpCode2);
     if (httpCode2 == HTTP_CODE_OK) {
@@ -268,7 +268,7 @@ void loop() {
     }
     SADI.end();
     /* Salto Grande */
-    SG.begin(client, "http://192.168.0.8:5005/api/last_sg");  // URL para last_sg
+    SG.begin(client, "http://XXX.XXX.XXX.XXX/api/last_sg");  // URL para last_sg
     int httpCode3 = SG.GET();
     Serial.println(httpCode3);
     if (httpCode3 == HTTP_CODE_OK) {
